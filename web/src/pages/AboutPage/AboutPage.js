@@ -1,8 +1,10 @@
+import Summary from 'src/components/Summary/Summary'
+
 const AboutPage = () => {
   return (
-    <>
-      <main>About</main>
-    </>
+    <div className="bg-white flex-grow">
+      <Summary />
+    </div>
   )
 }
 
